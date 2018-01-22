@@ -1,7 +1,6 @@
-[![License](https://img.shields.io/badge/License-MIT-blue.svg?style=flat-square)](https://github.com/Manisso/fsociety/blob/master/LICENSE) ![OS](https://img.shields.io/badge/Tested%20On-Linux%20|%20OSX%20|%20Windows%20|%20Android-yellowgreen.svg?style=flat-square) [![Python2.7](https://img.shields.io/badge/Python-2.7-green.svg?style=flat-square)](https://www.python.org/downloads/release/python-2714/) [![Python3](https://img.shields.io/badge/Python-3-green.svg?style=flat-square)](https://github.com/Manisso/fsociety/tree/python3)
-![Docker](https://img.shields.io/docker/automated/jrottenberg/ffmpeg.svg?style=flat-square)
+[![License](https://img.shields.io/badge/License-MIT-blue.svg?style=flat-square)](https://github.com/Manisso/fsociety/blob/master/LICENSE) ![OS](https://img.shields.io/badge/Tested%20On-Linux%20|%20OSX%20|%20Windows%20|%20Android-yellowgreen.svg?style=flat-square) [![Python2.7](https://img.shields.io/badge/Python-2.7-green.svg?style=flat-square)](https://www.python.org/downloads/release/python-2714/) [![Python3](https://img.shields.io/badge/Python-3-green.svg?style=flat-square)](https://github.com/Manisso/fsociety/tree/python3) ![Docker](https://img.shields.io/docker/automated/jrottenberg/ffmpeg.svg?style=flat-square)
 
-# Fsociety Hacking Tools Pack – A Penetration Testing Framework
+# Fsociety Hacking Tools Pack
 
 A Penetration Testing Framework, you will have every script that a hacker needs
 
@@ -25,10 +24,9 @@ A Penetration Testing Framework, you will have every script that a hacker needs
 
 - Nmap
 - Setoolkit
-- Port Scanning
 - Host To IP
-- wordpress user
-- CMS scanner
+- WPScan
+- CMS Scanner
 - XSStrike
 - Dork - Google Dorks Passive Vulnerability Auditor
 - Scan A server's Users
@@ -41,8 +39,9 @@ A Penetration Testing Framework, you will have every script that a hacker needs
 
 ### Wireless Testing:
 
-- reaver
-- pixiewps
+- Reaver
+- Pixiewps
+- Bluetooth Honeypot
 
 ### Exploitation Tools:
 
@@ -51,7 +50,7 @@ A Penetration Testing Framework, you will have every script that a hacker needs
 - Shellnoob
 - commix
 - FTP Auto Bypass
-- jboss-autopwn
+- JBoss Autopwn
 
 ### Sniffing & Spoofing:
 
@@ -102,7 +101,8 @@ A Penetration Testing Framework, you will have every script that a hacker needs
 
 ```bash
 git clone https://github.com/Manisso/fsociety.git
-cd fsociety && python fsociety.py
+cd fsociety
+./install.sh
 ```
 
 Follow This Video [HackerSploit](https://www.youtube.com/watch?v=t3uYpMrK2EU)
@@ -113,7 +113,8 @@ Download [Termux](https://play.google.com/store/apps/details?id=com.termux)
 
 ```bash
 git clone https://github.com/Manisso/fsociety.git
-cd fsociety && python fsociety.py
+cd fsociety
+./install.sh
 ```
 
 Follow This Video [Arif - Tech](https://www.youtube.com/watch?v=JwK5oOBjpgQ&t=160s)
@@ -154,6 +155,8 @@ docker-compose down # destroys instance
 [alexcreek](https://github.com/alexcreek)
 
 [mswell](https://github.com/mswell)
+
+[Ev3](https://github.com/Ev3)
 
 [huangsam](https://github.com/huangsam)
 
